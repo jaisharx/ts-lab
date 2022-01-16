@@ -2,7 +2,7 @@ import { Button, Text, Center, HStack } from '@chakra-ui/react'
 import type { NextPage } from 'next'
 import { useState } from 'react'
 
-const Count: NextPage = () => {
+const Home: NextPage = () => {
   const [count, setCount] = useState(0)
 
   return (
@@ -28,4 +28,4 @@ const Count: NextPage = () => {
   )
 }
 
-export default Count
+export default Home

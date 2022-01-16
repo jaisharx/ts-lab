@@ -1,11 +1,13 @@
-import { Button } from '@chakra-ui/react'
+import { Center } from '@chakra-ui/react'
+import { useState } from 'react'
+
 import type { NextPage } from 'next'
 
 const Home: NextPage = () => {
+
   return (
-    <>
-      <Button bg="orange">Hello, World!</Button>
-    </>
+    <Center minH="90vh">
+    </Center>
   )
 }
 
